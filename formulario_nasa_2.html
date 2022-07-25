@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Segunda tentativa</title>
+  </head>
+  <body>
+    <h2>Formulario Candidatura Astronautas Nasa</h2>
+    <form action="">
+      <div>
+        <label for="name">Nome:</label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" />
+        <label for="pass">- Senha:</label>
+        <input type="password" name="pass" id="pass" />
+      </div>
+      <br />
+      <div>
+        <label for="bith">Data de nascimento:</label>
+        <input type="date" name="bith" id="bith" />
+        <label for="image">- Foto:</label>
+        <input type="file" name="image" id="image" />
+      </div>
+      <br />
+      <div>
+        <label for="nacionality">Nacionalidade:</label>
+        <select name="nacionality" id="nacionality">
+          <option value="russian">Russo</option>
+          <option value="brazilian">Brasileiro</option>
+          <option value="american">Americano</option>
+        </select>
+        - Gênero:
+        <label for="female">F</label>
+        <input type="radio" name="female" id="female" />
+        <label for="male">M</label>
+        <input type="radio" name="male" id="male" />
+      </div>
+      <p>Principais qualidades:</p>
+      <div>
+        <label for="inteligencia">Inteligência</label> |
+        <input type="checkbox" name="inteligencia" id="inteligencia" />
+        <label for="res">Resiliência</label> |
+        <input type="checkbox" name="res" id="res" />
+        <label for="fisico">Preparo fisico</label> |
+        <input type="checkbox" name="fisico" id="fisico" />
+        <label for="educacao">Educação</label> |
+        <input type="checkbox" name="educacao" id="educacao" />
+      </div>
+      <br />
+      <div>
+        <textarea
+          name="about_you"
+          id="about_you"
+          cols="30"
+          rows="10"
+          placeholder="Fale mais um pouco sobre você..."
+        ></textarea>
+      </div>
+      <input type="submit" value="Criar" />
+    </form>
+  </body>
+</html>
